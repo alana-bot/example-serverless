@@ -1,0 +1,11 @@
+{
+  "name": "new-alanabot",
+  "version": "1.0.0",
+  "description": "A new chatbot",
+  "dependencies": {
+    "@alana/core": "^2.1.0",
+    "@alana/platform-console": "^1.0.3",
+    "@alana/platform-facebook": "^1.0.14",
+    "@alana/platform-web": "^1.0.1"
+  }
+}
