@@ -42,7 +42,6 @@ exports.runbot = function runbot(req, res) {
     });
   bot.turnOnDebug();
   const platform = new PlatformSnub();
-  console.log(platform);
   const messagingEvents = flatten(req.body.entry.map(entry => entry.messaging));
   if (bot.debugOn) {
     console.log(`Recieved ${messagingEvents.length} messages`);
