@@ -4,8 +4,8 @@
   "description": "A new chatbot",
   "dependencies": {
     "@alana/core": "^2.1.0",
-    "@alana/platform-console": "^1.0.3",
-    "@alana/platform-facebook": "^1.0.14",
-    "@alana/platform-web": "^1.0.1"
+    "@alana/platform-facebook": "^1.0.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
   }
 }
